@@ -9,7 +9,7 @@ import com.crypto.chat.ui.LoginScreen
 
 @Composable
 fun NavGraph(navController: NavHostController) {
-     NavHost(navController = navController, startDestination = "profile") {
+     NavHost(navController = navController, startDestination = Screen.LoginScreen.route) {
         composable( Screen.LoginScreen.route) {
             LoginScreen(navController = navController)
         }
