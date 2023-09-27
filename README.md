@@ -1,1 +1,22 @@
 Crypto chat
+
+- [ ]  no hard-coded apis
+- [ ]  biometric authentication
+- [ ]  difficult password creating is enforced
+- [ ]  too many failed login attempts will lock the user out for a period of time
+- [ ]  owasp vulnerability scan completed
+- [ ]  dependencies are up to date
+- [ ]  minimum permissions in manifest
+- [ ]  no sensitive data in logs
+- [ ]  single instance of activity to protect against task hijacking "evil twin"
+- [ ]  file provider not exposed
+- [ ]  room encryption
+- [ ]  data encryption
+- [ ]  code obfuscation
+- [ ]  string encryption
+- [ ]  shared preferences encrypted
+- [ ]  input validation will be done for all user input to prevent SQL injection
+- [ ]  network security config added
+- [ ]  webview has minimum permissions
+- [ ]  app chooser
+- [ ]  app will be signed with a release key
